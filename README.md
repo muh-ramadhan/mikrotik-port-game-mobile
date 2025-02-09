@@ -24,7 +24,7 @@ add address=10.0.0.0/8 list=CLIENT
 **Catatan:** Sesuaikan address dengan IP WAN milik pelanggan/client Anda.
 
 ---
-## **Pengaturan RAW**
+## **Pengaturan RAW Mobile Legend**
 ```mikrotik
 /ip firewall raw
 add action=add-dst-to-address-list address-list=IP-GAME address-list-timeout=\
