@@ -24,7 +24,7 @@ add address=10.0.0.0/8 list=CLIENT
 **Catatan:** Sesuaikan address dengan IP WAN milik pelanggan/client Anda.
 
 ---
-## **Pengaturan RAW Mobile Legend**
+## **Contoh Pengaturan RAW Untuk Mobile Legend**
 ```mikrotik
 /ip firewall raw
 add action=add-dst-to-address-list address-list=IP-GAME address-list-timeout=\
@@ -36,6 +36,17 @@ add action=add-dst-to-address-list address-list=IP-GAME address-list-timeout=\
     30190,19000,5512,5514,5518,5555,5521,6789 protocol=udp src-address-list=\
     CLIENT
 ```
+
+**Catatan:** Untuk port game lainnya anda bisa membuat raw baru dengan dst-port tcp dan dst-port udp sesuai dengan game yang anda inginkan.
+- Silahkan buka halaman port game yang anda inginkan untuk mengcopy paste portnya
+- **RAW baru yang anda buat harus berada di bawah raw game lain, agar tidak mengganggu raw anda**
+  - RAW Port TCP Mobile Legend
+  - RAW Port UDP Mobile Legend
+  - RAW Port TCP Free Fire
+  - Raw Port UDP Free Fire
+  - dan port game lainnya
+  - RAW anda ada disini
+  - .......
 
 ---
 ## **Pengaturan Mangle**
