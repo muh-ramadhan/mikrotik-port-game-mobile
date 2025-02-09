@@ -1,24 +1,5 @@
-# MikroTik Mobile Game Ports
-
-## **TCP**
-<pre>
+TCP
 30071,30021,30102,7002,7003,7004,7591,5505,5562,5564,5568,5571
-</pre>
-<button onclick="copyToClipboard('tcp-ports')">📋 Copy TCP Ports</button>
-<pre id="tcp-ports">30071,30021,30102,7002,7003,7004,7591,5505,5562,5564,5568,5571</pre>
 
-## **UDP**
-<pre>
+UDP
 30190,19000,5512,5514,5518,5555,5521,6789
-</pre>
-<button onclick="copyToClipboard('udp-ports')">📋 Copy UDP Ports</button>
-<pre id="udp-ports">30190,19000,5512,5514,5518,5555,5521,6789</pre>
-
-<script>
-function copyToClipboard(id) {
-    var copyText = document.getElementById(id).innerText;
-    navigator.clipboard.writeText(copyText).then(() => {
-        alert("Copied: " + copyText);
-    });
-}
-</script>
