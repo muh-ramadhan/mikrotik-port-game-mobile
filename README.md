@@ -1,4 +1,4 @@
-# **MikroTik Game Port Configuration**
+# **MikroTik 6.x.x Game Port Configuration**
 
 Port game ini di-*torch* menggunakan MikroTik secara manual untuk setiap game yang dimainkan dengan target IP tunggal serta satu perangkat tanpa batas latar belakang saat memainkan game.
 
